@@ -1,0 +1,33 @@
+{
+  "name": "login-auth-with-paspport-nodejs",
+  "version": "1.0.0",
+  "description": "It's just for learning",
+  "main": "server.js",
+  "scripts": {
+    "Start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagastri07/login-auth-with-Paspport-nodejs.git"
+  },
+  "author": "Bagas Tri Wibowo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagastri07/login-auth-with-Paspport-nodejs/issues"
+  },
+  "homepage": "https://github.com/bagastri07/login-auth-with-Paspport-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
